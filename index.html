@@ -2,6 +2,7 @@
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
@@ -16,63 +17,64 @@
 <div class="menu-item"><a href="index.html" class="current">About me</a></div>
 <!-- <div class="menu-category">Research</div> -->
 <div class="menu-item"><a href="publications.html">Research</a></div>
+<div class="menu-item"><a href="topics.html">By Topic</a></div>
 <!-- <div class="menu-category">Miscellaneous</div> -->
 <div class="menu-item"><a href="service.html">Service</a></div>
 <div class="menu-item"><a href="awards.html">Awards</a></div>
 <div class="menu-item"><a href="teaching.html">Teaching</a></div>
-<div class="menu-item"><a href="experiences.html">Experiences</a></div>
+<div class="menu-item"><a href="experiences.html">Miscellaneous</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
 <h1>Tianyu Wang</h1>
 </div>
 <table class="imgtable"><tr><td>
-<img src="photos/bio3.jpg" alt="alt text" width="200px" height="267px" />&nbsp;</td>
-<td align="left"><p>
-  <br />
-  Email: tw2837 [AT] columbia [DOT] edu <br />
+<img src="photos/bio.png" alt="alt text" width="200px" height="200px" />&nbsp;</td>
+<td align="left">
+<p class="profile-affiliation"><strong>Postdoctoral Fellow<br />Harvard Business School AI Institute</strong></p>
+<p>
+  Email: wangtianyu6162 [AT] gmail [DOT] com <br />
   <a href="resume.pdf">Resume (Updated on Jun 2026)</a> <br/>
   
   <a href="https://scholar.google.com/citations?user=mKT6mKEAAAAJ&hl=en">Google Scholar</a><br/>
   
   <a href="https://www.linkedin.com/in/tianyu-wang-7ab1291b1/">Linkedln</a> <br />
+</p>
   <blockquote>
   <i>To be uncertain is uncomfortable, but to be certain is ridiculous. -- Goethe</i>
-</blockquote></p>
+</blockquote>
   </td></tr></table>
   <!-- <p>&nbsp; at Seattle, WA, USA (July 1, 2023)
   </p> -->
 
-
-<h2>About Me</h2>
-<p>
-I completed my PhD in Operations Research at Columbia University, where I was fortunate to be co-advised by Professors <a href = 'http://www.columbia.edu/~gi10/'>Garud Iyengar</a> and <a href = 'http://www.columbia.edu/~khl2114/'>Henry Lam</a>. Previously, I obtained a B.E. in Information Systems and B.S. in Mathematics both from Tsinghua University in 2021.</p>
-
-<b>I will join The Chinese University of Hong Kong (CUHK) as an Assistant Professor in the Department of Systems Engineering and Engineering Management (SEEM) in Fall 2027. During the 2026-2027 acadamic year, I will be a postdoctoral fellow at Harvard Business School AI Institute. </b></p>
-
-
-<p>My research studies the statistical and computational foundations for evaluating and designing data-driven decision making.
+<h3>Research Overview</h3>
+<div class="research-overview">
 <ul>
-  <li><p><b style = "color:blue">Methodologies:</b> optimization, machine learning, inference and stochastic simulation;</p>
-  </li>
-  <li><p><b style = "color:blue">Applications:</b> trustworthy machine learning, supply chain management, and healthcare operations.</p></li>
-  </li>
+  <li><p><b>Trustworthy decisions:</b> I develop diagnostic tools and trustworthy methods across the data-to-decision pipeline, focusing on often-overlooked yet practically important components, including evaluation criteria <a href="#featured-research-1">[1]</a> and data acquisition.</p></li>
+  <li><p><b>AI evaluation:</b> I study systematic approaches to improving modern AI evaluation from an operations research perspective, including benchmark design <a href="#featured-research-2">[2]</a> and calibration.</p></li>
+  <li><p><b>Healthcare operations:</b> I partner with companies and government agencies to deploy AI-driven algorithms in healthcare settings <a href="#featured-research-3">[3]</a>.</p></li>
+</ul>
+</div>
+
+
+<h2>Bio</h2>
+<p>
+I am a postdoctoral fellow at <a href = 'https://aiinstitute.hbs.edu/'>Harvard Business School AI Institute</a> and will join The Chinese University of Hong Kong (CUHK) as an Assistant Professor in the Department of Systems Engineering and Engineering Management (SEEM) in July 2027. 
+
+<p>I study how to design, evaluate and deploy AI-driven decision making, with a recent focus on AI evaluation and healthcare optimization. My research lies at the interface of operations research, statistics, and machine learning. I have been collaborating with industry partners to implement data-driven optimization models in real-world operations, including the <i>Mount Sinai Hospital</i> and the <i>Fire Department of the City of New York</i>.</p>
+
+
+My work has been published in leading business journals, including <i>Management Science</i> and <i>M&SOM</i>, as well as major AI conferences, including <i>NeurIPS</i> and <i>ICML</i>. My research has received recognitions from <i>INFORMS George B. Dantzig Dissertation Award</i> [<a href="docs/thesis_summary.pdf">25-page thesis summary</a>], <i>George Nicholson Student Paper Competition</i>, <i>INFORMS Applied Probability Society</i>, <i>Stochastic Programming Society</i>, among many others. Previously, I completed my PhD in Operations Research from Columbia University, where I was fortunate to be co-advised by Professors <a href = 'http://www.columbia.edu/~gi10/'>Garud Iyengar</a> and <a href = 'http://www.columbia.edu/~khl2114/'>Henry Lam</a>. Before that, I obtained my BE in Information Systems and BS in Mathematics from Tsinghua University in 2021.</p>
+
+
+<h2>Featured Research</h2>
+<ul>
+  <li id="featured-research-1"><p>[1] <a href="https://arxiv.org/pdf/2306.10081.pdf">Optimizer's Information Criterion: Dissecting and Correcting Bias in Data-Driven Optimization</a>. <i>Management Science</i> (minor revision).</p></li>
+  <li id="featured-research-2"><p>[2] <a href="https://arxiv.org/pdf/2307.05284.pdf">Rethinking Distribution Shifts: Empirical Analysis and Modeling for Tabular Data</a>. <i>Management Science</i>. Forthcoming.</p></li>
+  <li id="featured-research-3"><p>[3] <a href="https://openreview.net/forum?id=53PgewK6lv">Translating Time-Series Foundation Models into AI-Enhanced Medication Inventory Control in a Large Urban Health System</a>. Working Paper.</p></li>
 </ul>
 
-Practically, I have been working with several companies and institutions, including the <i>Fire Department of the City of New York</i> and <i>Mount Sinai</i> to help design and implement data-driven optimization models in real operations. In Summer 2023, I spent a great time working as a research scientist intern at <i>Supply Chain Optimization Technologies Team in Amazon</i> on uncertainty attribution of inventory production control simulation systems.
-
-
-
-
-
-<!-- <h2>Research Interests </h2>
-<p></p>
-<ul>
-<li><p>Methodology: Stochastic Optimization, Learning Theory, Statistical Inference.</p>
-</li>
-<li><p>Application: Trustworthy Machine Learning, Supply Chain Management, Continuous Manufacturing.</p>
-</li>
-</ul> -->
+<p>Check out the <a href="topics.html">By Topic</a> page for an overview of current research directions, and the <a href="publications.html">Research</a> page for a full list of working and published papers.</p>
 
 <br/>
 <br/>
