@@ -476,10 +476,6 @@ table.imgtable .profile-affiliation {
     font-weight: normal;
 }
 
-.paper-authors u {
-    text-underline-offset: 0.2em;
-}
-
 .paper-entry .paper-note {
     color: #555555;
     font-size: 95%;

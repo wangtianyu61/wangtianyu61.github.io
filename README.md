@@ -15,7 +15,7 @@ Omit the `paper-venue` paragraph when no venue or revision status is listed.
 The format is: linked title and bracketed resource links; authors; venue/status;
 optional preliminary-version notes; optional awards. Delete optional elements
 that do not apply. Add links such as `[Code]`, `[Poster]`, `[Website]`, or
-`[Python package]` inside `paper-links`. Preserve `<u>T. Wang</u>` and use
+`[Python package]` inside `paper-links`. Keep author names plain, and use
 `<sup>*</sup>` or `<sup>+</sup>` for the contribution markers defined on the page.
 
 Add one `<li>` per recognition inside `paper-awards`. The shared rules in
