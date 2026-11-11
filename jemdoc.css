@@ -434,6 +434,10 @@ table.imgtable .profile-affiliation {
     line-height: 1.4;
 }
 
+.home-section-heading {
+    padding-top: 0.4em;
+}
+
 .research-overview {
     margin: 12px 0 28px;
     padding: 16px 20px;
@@ -451,6 +455,15 @@ table.imgtable .profile-affiliation {
 }
 
 .research-overview li:last-child p {
+    margin-bottom: 0;
+}
+
+.opportunities {
+    background-color: #edf6ff;
+    border-color: #c8dff2;
+}
+
+.opportunities > p:last-child {
     margin-bottom: 0;
 }
 
@@ -537,18 +550,23 @@ table.imgtable .profile-affiliation {
         position: static;
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 4px;
-        padding: 14px;
+        gap: 2px;
+        padding: 8px 10px;
+        font-size: 0.9375em;
     }
 
     #layout-menu .menu-category {
         grid-column: 1 / -1;
-        margin: 0 8px 6px;
-        padding-bottom: 8px;
+        margin: 0 8px 2px;
+        padding-bottom: 4px;
     }
 
     #layout-menu .menu-item {
         margin: 0;
+    }
+
+    #layout-menu a {
+        padding: 6px 8px;
     }
 
     #layout-content {
